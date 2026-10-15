@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: bookstore
-          image: nginx:alpine
+          image: mayur123987/online-bookstore:5-stable
           imagePullPolicy: Always
           ports:
             - containerPort: 80
